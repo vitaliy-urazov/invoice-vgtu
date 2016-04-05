@@ -5,7 +5,7 @@
     <DataSources isList="true" count="1">
       <info type="DataTableSource" Ref="2" isKey="true">
         <Alias>info</Alias>
-        <Columns isList="true" count="8">
+        <Columns isList="true" count="9">
           <value>fname,System.String</value>
           <value>fakult,System.String</value>
           <value>group,System.String</value>
@@ -14,6 +14,7 @@
           <value>qrcode,System.String</value>
           <value>lname,System.String</value>
           <value>mname,System.String</value>
+          <value>qrcodeimg,System.Drawing.Image</value>
         </Columns>
         <Dictionary isRef="1"/>
         <Name>info</Name>
@@ -22,7 +23,9 @@
     </DataSources>
     <Relations isList="true" count="0"/>
     <Report isRef="0"/>
-    <Variables isList="true" count="0"/>
+    <Variables isList="true" count="1">
+      <value>,qrimg,qrimg,System.Drawing.Image,,False,False</value>
+    </Variables>
   </Dictionary>
   <EngineVersion>EngineV2</EngineVersion>
   <GlobalizationStrings isList="true" count="0"/>
@@ -44,20 +47,7 @@
           <Text>Извещение</Text>
           <TextBrush>Black</TextBrush>
         </Text1>
-        <BarCode1 type="Stimulsoft.Report.BarCodes.StiBarCode" Ref="5" isKey="true">
-          <AutoScale>True</AutoScale>
-          <BackColor>White</BackColor>
-          <BarCodeType type="Stimulsoft.Report.BarCodes.StiQRCodeBarCodeType" Ref="6" isKey="true"/>
-          <ClientRectangle>0.6,1.6,4.2,4.6</ClientRectangle>
-          <Code>{info.qrcode}</Code>
-          <Conditions isList="true" count="0"/>
-          <Font>Arial,8,Bold,Pixel</Font>
-          <ForeColor>Black</ForeColor>
-          <Name>BarCode1</Name>
-          <Page isRef="3"/>
-          <Parent isRef="3"/>
-        </BarCode1>
-        <Text2 type="Text" Ref="7" isKey="true">
+        <Text2 type="Text" Ref="5" isKey="true">
           <Brush>Transparent</Brush>
           <CanGrow>True</CanGrow>
           <ClientRectangle>5.2,0.6,13.2,0.6</ClientRectangle>
@@ -72,7 +62,7 @@
           <TextBrush>Black</TextBrush>
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
         </Text2>
-        <Text3 type="Text" Ref="8" isKey="true">
+        <Text3 type="Text" Ref="6" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>8.8,1.2,6,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -85,7 +75,7 @@
           <Text>(наименование получателя платежа)</Text>
           <TextBrush>Black</TextBrush>
         </Text3>
-        <Text4 type="Text" Ref="9" isKey="true">
+        <Text4 type="Text" Ref="7" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,1.6,3.8,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -98,7 +88,7 @@
           <Text>3662020886</Text>
           <TextBrush>Black</TextBrush>
         </Text4>
-        <Text5 type="Text" Ref="10" isKey="true">
+        <Text5 type="Text" Ref="8" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,2,3.8,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -111,7 +101,7 @@
           <Text>ИНН налогового органа</Text>
           <TextBrush>Black</TextBrush>
         </Text5>
-        <Text6 type="Text" Ref="11" isKey="true">
+        <Text6 type="Text" Ref="9" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>9.4,1.6,9,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -124,7 +114,7 @@
           <Text>40501810920072000002</Text>
           <TextBrush>Black</TextBrush>
         </Text6>
-        <Text7 type="Text" Ref="12" isKey="true">
+        <Text7 type="Text" Ref="10" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>9.4,2,9,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -137,7 +127,7 @@
           <Text>(номер счета получателя платежа)</Text>
           <TextBrush>Black</TextBrush>
         </Text7>
-        <Text8 type="Text" Ref="13" isKey="true">
+        <Text8 type="Text" Ref="11" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,2.4,13.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -150,7 +140,7 @@
           <Text>Отделение Воронеж</Text>
           <TextBrush>Black</TextBrush>
         </Text8>
-        <Text9 type="Text" Ref="14" isKey="true">
+        <Text9 type="Text" Ref="12" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,2.8,13.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -163,7 +153,7 @@
           <Text>(наименование банка)</Text>
           <TextBrush>Black</TextBrush>
         </Text9>
-        <Text10 type="Text" Ref="15" isKey="true">
+        <Text10 type="Text" Ref="13" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>6.2,3.2,3.8,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -176,7 +166,7 @@
           <Text>3662020886</Text>
           <TextBrush>Black</TextBrush>
         </Text10>
-        <Text11 type="Text" Ref="16" isKey="true">
+        <Text11 type="Text" Ref="14" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,3.2,1,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -189,7 +179,7 @@
           <Text>БИК:</Text>
           <TextBrush>Black</TextBrush>
         </Text11>
-        <Text12 type="Text" Ref="17" isKey="true">
+        <Text12 type="Text" Ref="15" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>12.8,3.2,5.6,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -202,7 +192,7 @@
           <Text>3662020886</Text>
           <TextBrush>Black</TextBrush>
         </Text12>
-        <Text13 type="Text" Ref="18" isKey="true">
+        <Text13 type="Text" Ref="16" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>11.2,3.2,1.6,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -215,7 +205,7 @@
           <Text>Кор/сч.:</Text>
           <TextBrush>Black</TextBrush>
         </Text13>
-        <Text14 type="Text" Ref="19" isKey="true">
+        <Text14 type="Text" Ref="17" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,3.6,13.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -228,7 +218,7 @@
           <Text>{info.reason}</Text>
           <TextBrush>Black</TextBrush>
         </Text14>
-        <Text15 type="Text" Ref="20" isKey="true">
+        <Text15 type="Text" Ref="18" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,4,13.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -241,7 +231,7 @@
           <Text>(наименование платежа</Text>
           <TextBrush>Black</TextBrush>
         </Text15>
-        <Text16 type="Text" Ref="21" isKey="true">
+        <Text16 type="Text" Ref="19" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,4.4,3.4,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -253,7 +243,7 @@
           <Text>ФИО плательщика:</Text>
           <TextBrush>Black</TextBrush>
         </Text16>
-        <Text17 type="Text" Ref="22" isKey="true">
+        <Text17 type="Text" Ref="20" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,4.8,2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -265,7 +255,7 @@
           <Text>Факультет:</Text>
           <TextBrush>Black</TextBrush>
         </Text17>
-        <Text18 type="Text" Ref="23" isKey="true">
+        <Text18 type="Text" Ref="21" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,4.4,9.8,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -277,7 +267,7 @@
           <Text>{info.lname} {info.fname} {info.mname}</Text>
           <TextBrush>Black</TextBrush>
         </Text18>
-        <Text19 type="Text" Ref="24" isKey="true">
+        <Text19 type="Text" Ref="22" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>7.2,4.8,5.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -289,7 +279,7 @@
           <Text>{info.fakult}</Text>
           <TextBrush>Black</TextBrush>
         </Text19>
-        <Text20 type="Text" Ref="25" isKey="true">
+        <Text20 type="Text" Ref="23" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>12.4,4.8,2.6,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -301,7 +291,7 @@
           <Text>Номер группы:</Text>
           <TextBrush>Black</TextBrush>
         </Text20>
-        <Text21 type="Text" Ref="26" isKey="true">
+        <Text21 type="Text" Ref="24" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>15,4.8,3.4,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -313,7 +303,7 @@
           <Text>{info.group}</Text>
           <TextBrush>Black</TextBrush>
         </Text21>
-        <Text22 type="Text" Ref="27" isKey="true">
+        <Text22 type="Text" Ref="25" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,5.2,2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -326,7 +316,7 @@
           <Text>ОКАТО:</Text>
           <TextBrush>Black</TextBrush>
         </Text22>
-        <Text23 type="Text" Ref="28" isKey="true">
+        <Text23 type="Text" Ref="26" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>7.2,5.2,3.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -338,7 +328,7 @@
           <Text>20701000</Text>
           <TextBrush>Black</TextBrush>
         </Text23>
-        <Text24 type="Text" Ref="29" isKey="true">
+        <Text24 type="Text" Ref="27" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>10.4,5.2,2.6,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -351,7 +341,7 @@
           <Text>КБК:</Text>
           <TextBrush>Black</TextBrush>
         </Text24>
-        <Text25 type="Text" Ref="30" isKey="true">
+        <Text25 type="Text" Ref="28" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>13,5.2,5.4,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -363,7 +353,7 @@
           <Text>81530201020020000130</Text>
           <TextBrush>Black</TextBrush>
         </Text25>
-        <Text26 type="Text" Ref="31" isKey="true">
+        <Text26 type="Text" Ref="29" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,5.8,2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -375,7 +365,7 @@
           <Text>Сумма:</Text>
           <TextBrush>Black</TextBrush>
         </Text26>
-        <Text27 type="Text" Ref="32" isKey="true">
+        <Text27 type="Text" Ref="30" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>7.2,5.8,3.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -387,7 +377,7 @@
           <Text>{info.summa}</Text>
           <TextBrush>Black</TextBrush>
         </Text27>
-        <Text28 type="Text" Ref="33" isKey="true">
+        <Text28 type="Text" Ref="31" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>11.8,5.8,1.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -399,7 +389,7 @@
           <Text>Дата:</Text>
           <TextBrush>Black</TextBrush>
         </Text28>
-        <Text29 type="Text" Ref="34" isKey="true">
+        <Text29 type="Text" Ref="32" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>13,5.8,5.4,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -411,7 +401,7 @@
           <Text>____ ______________ 20___ г</Text>
           <TextBrush>Black</TextBrush>
         </Text29>
-        <Text30 type="Text" Ref="35" isKey="true">
+        <Text30 type="Text" Ref="33" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,6.4,13.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -423,7 +413,7 @@
           <Text>Плательщик (подпись): _______________________________________</Text>
           <TextBrush>Black</TextBrush>
         </Text30>
-        <Text31 type="Text" Ref="36" isKey="true">
+        <Text31 type="Text" Ref="34" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,7.4,4,0.6</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -435,7 +425,7 @@
           <Text>Квитанция</Text>
           <TextBrush>Black</TextBrush>
         </Text31>
-        <Text32 type="Text" Ref="37" isKey="true">
+        <Text32 type="Text" Ref="35" isKey="true">
           <Brush>Transparent</Brush>
           <CanGrow>True</CanGrow>
           <ClientRectangle>5.2,7.4,13.2,0.6</ClientRectangle>
@@ -450,7 +440,7 @@
           <TextBrush>Black</TextBrush>
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
         </Text32>
-        <Text33 type="Text" Ref="38" isKey="true">
+        <Text33 type="Text" Ref="36" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>8.8,8,6,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -463,7 +453,7 @@
           <Text>(наименование получателя платежа)</Text>
           <TextBrush>Black</TextBrush>
         </Text33>
-        <Text34 type="Text" Ref="39" isKey="true">
+        <Text34 type="Text" Ref="37" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,8.4,3.8,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -476,7 +466,7 @@
           <Text>3662020886</Text>
           <TextBrush>Black</TextBrush>
         </Text34>
-        <Text35 type="Text" Ref="40" isKey="true">
+        <Text35 type="Text" Ref="38" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,8.8,3.8,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -489,7 +479,7 @@
           <Text>ИНН налогового органа</Text>
           <TextBrush>Black</TextBrush>
         </Text35>
-        <Text36 type="Text" Ref="41" isKey="true">
+        <Text36 type="Text" Ref="39" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>9.4,8.4,9,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -502,7 +492,7 @@
           <Text>40501810920072000002</Text>
           <TextBrush>Black</TextBrush>
         </Text36>
-        <Text37 type="Text" Ref="42" isKey="true">
+        <Text37 type="Text" Ref="40" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>9.4,8.8,9,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -515,7 +505,7 @@
           <Text>(номер счета получателя платежа)</Text>
           <TextBrush>Black</TextBrush>
         </Text37>
-        <Text38 type="Text" Ref="43" isKey="true">
+        <Text38 type="Text" Ref="41" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,9.2,13.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -528,7 +518,7 @@
           <Text>Отделение Воронеж</Text>
           <TextBrush>Black</TextBrush>
         </Text38>
-        <Text39 type="Text" Ref="44" isKey="true">
+        <Text39 type="Text" Ref="42" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,9.6,13.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -541,7 +531,7 @@
           <Text>(наименование банка)</Text>
           <TextBrush>Black</TextBrush>
         </Text39>
-        <Text40 type="Text" Ref="45" isKey="true">
+        <Text40 type="Text" Ref="43" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>6.2,10,3.8,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -554,7 +544,7 @@
           <Text>3662020886</Text>
           <TextBrush>Black</TextBrush>
         </Text40>
-        <Text41 type="Text" Ref="46" isKey="true">
+        <Text41 type="Text" Ref="44" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,10,1,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -567,7 +557,7 @@
           <Text>БИК:</Text>
           <TextBrush>Black</TextBrush>
         </Text41>
-        <Text42 type="Text" Ref="47" isKey="true">
+        <Text42 type="Text" Ref="45" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>12.8,10,5.6,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -580,7 +570,7 @@
           <Text>3662020886</Text>
           <TextBrush>Black</TextBrush>
         </Text42>
-        <Text43 type="Text" Ref="48" isKey="true">
+        <Text43 type="Text" Ref="46" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>11.2,10,1.6,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -593,7 +583,7 @@
           <Text>Кор/сч.:</Text>
           <TextBrush>Black</TextBrush>
         </Text43>
-        <Text45 type="Text" Ref="49" isKey="true">
+        <Text45 type="Text" Ref="47" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,10.8,13.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -606,7 +596,7 @@
           <Text>(наименование платежа</Text>
           <TextBrush>Black</TextBrush>
         </Text45>
-        <Text46 type="Text" Ref="50" isKey="true">
+        <Text46 type="Text" Ref="48" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,11.2,3.4,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -618,7 +608,7 @@
           <Text>ФИО плательщика:</Text>
           <TextBrush>Black</TextBrush>
         </Text46>
-        <Text47 type="Text" Ref="51" isKey="true">
+        <Text47 type="Text" Ref="49" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,11.6,2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -630,7 +620,7 @@
           <Text>Факультет:</Text>
           <TextBrush>Black</TextBrush>
         </Text47>
-        <Text50 type="Text" Ref="52" isKey="true">
+        <Text50 type="Text" Ref="50" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>12.4,11.6,2.6,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -642,7 +632,7 @@
           <Text>Номер группы:</Text>
           <TextBrush>Black</TextBrush>
         </Text50>
-        <Text52 type="Text" Ref="53" isKey="true">
+        <Text52 type="Text" Ref="51" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,12,2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -655,7 +645,7 @@
           <Text>ОКАТО:</Text>
           <TextBrush>Black</TextBrush>
         </Text52>
-        <Text53 type="Text" Ref="54" isKey="true">
+        <Text53 type="Text" Ref="52" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>7.2,12,3.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -667,7 +657,7 @@
           <Text>20701000</Text>
           <TextBrush>Black</TextBrush>
         </Text53>
-        <Text54 type="Text" Ref="55" isKey="true">
+        <Text54 type="Text" Ref="53" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>10.4,12,2.6,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -680,7 +670,7 @@
           <Text>КБК:</Text>
           <TextBrush>Black</TextBrush>
         </Text54>
-        <Text55 type="Text" Ref="56" isKey="true">
+        <Text55 type="Text" Ref="54" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>13,12,5.4,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -692,7 +682,7 @@
           <Text>81530201020020000130</Text>
           <TextBrush>Black</TextBrush>
         </Text55>
-        <Text56 type="Text" Ref="57" isKey="true">
+        <Text56 type="Text" Ref="55" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,12.6,2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -704,7 +694,7 @@
           <Text>Сумма:</Text>
           <TextBrush>Black</TextBrush>
         </Text56>
-        <Text58 type="Text" Ref="58" isKey="true">
+        <Text58 type="Text" Ref="56" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>11.8,12.6,1.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -716,7 +706,7 @@
           <Text>Дата:</Text>
           <TextBrush>Black</TextBrush>
         </Text58>
-        <Text59 type="Text" Ref="59" isKey="true">
+        <Text59 type="Text" Ref="57" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>13,12.6,5.4,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -728,7 +718,7 @@
           <Text>____ ______________ 20___ г</Text>
           <TextBrush>Black</TextBrush>
         </Text59>
-        <Text60 type="Text" Ref="60" isKey="true">
+        <Text60 type="Text" Ref="58" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,13.2,13.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -740,7 +730,7 @@
           <Text>Плательщик (подпись): _______________________________________</Text>
           <TextBrush>Black</TextBrush>
         </Text60>
-        <Text57 type="Text" Ref="61" isKey="true">
+        <Text57 type="Text" Ref="59" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>7.2,12.6,3.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -752,7 +742,7 @@
           <Text>{info.summa}</Text>
           <TextBrush>Black</TextBrush>
         </Text57>
-        <Text48 type="Text" Ref="62" isKey="true">
+        <Text48 type="Text" Ref="60" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,11.2,9.8,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -764,7 +754,7 @@
           <Text>{info.lname} {info.fname} {info.mname}</Text>
           <TextBrush>Black</TextBrush>
         </Text48>
-        <Text49 type="Text" Ref="63" isKey="true">
+        <Text49 type="Text" Ref="61" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>7.2,11.6,5.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -776,7 +766,7 @@
           <Text>{info.fakult}</Text>
           <TextBrush>Black</TextBrush>
         </Text49>
-        <Text51 type="Text" Ref="64" isKey="true">
+        <Text51 type="Text" Ref="62" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>15,11.6,3.4,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -788,7 +778,7 @@
           <Text>{info.group}</Text>
           <TextBrush>Black</TextBrush>
         </Text51>
-        <Text44 type="Text" Ref="65" isKey="true">
+        <Text44 type="Text" Ref="63" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,10.4,13.2,0.4</ClientRectangle>
           <Conditions isList="true" count="0"/>
@@ -801,6 +791,19 @@
           <Text>{info.reason}</Text>
           <TextBrush>Black</TextBrush>
         </Text44>
+        <BarCode1 type="Stimulsoft.Report.BarCodes.StiBarCode" Ref="64" isKey="true">
+          <AutoScale>True</AutoScale>
+          <BackColor>White</BackColor>
+          <BarCodeType type="Stimulsoft.Report.BarCodes.StiQRCodeBarCodeType" Ref="65" isKey="true"/>
+          <ClientRectangle>0.6,1.6,4,3.8</ClientRectangle>
+          <Code>{info.qrcode}</Code>
+          <Conditions isList="true" count="0"/>
+          <Font>Arial,8,Bold,Pixel</Font>
+          <ForeColor>Black</ForeColor>
+          <Name>BarCode1</Name>
+          <Page isRef="3"/>
+          <Parent isRef="3"/>
+        </BarCode1>
         <RectanglePrimitive1 type="RectanglePrimitive" Ref="66" isKey="true">
           <ClientRectangle>0.4,0.4,4.6,6.8</ClientRectangle>
           <Color>Black</Color>
@@ -1114,10 +1117,10 @@
   </Pages>
   <PrinterSettings type="Stimulsoft.Report.Print.StiPrinterSettings" Ref="121" isKey="true"/>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>03/26/2016 06:43:06 PM</ReportChanged>
+  <ReportChanged>04/05/2016 07:56:51 PM</ReportChanged>
   <ReportCreated>03/23/2016 05:50:59 PM</ReportCreated>
-  <ReportFile>/Users/vitaliyurazov/Downloads/politeh-invoice/invoice/src/invoice_template.mrt</ReportFile>
-  <ReportGuid>a5cb860d6bd5382be97eb397d76e2a9d</ReportGuid>
+  <ReportFile>/Users/vitaliyurazov/Downloads/invoice-vgtu/invoice/src/invoice_template.mrt</ReportFile>
+  <ReportGuid>9ce04c34093e80b107c8e75af6f4541b</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2011.2.1100</ReportVersion>

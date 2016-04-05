@@ -5,7 +5,10 @@
       <configuration name="invoice" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/invoice" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
         <dependencies target-player="20.0">
           <entries>
-            <entry library-name="Stimulsoft_ViewerFx" library-level="project">
+            <entry library-name="as3-qrcode-encoder" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="cc696f1a-e691-4383-8b3b-f0a37f35eaad">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -31,5 +34,17 @@
     <orderEntry type="jdk" jdkName="flex_sdk_4.15" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="Stimulsoft_ViewerFx" level="project" />
+    <orderEntry type="library" exported="" name="as3-qrcode-encoder" level="project" />
+    <orderEntry type="library" exported="" name="Stimulsoft_ViewerFx_Trial" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="cc696f1a-e691-4383-8b3b-f0a37f35eaad" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Stimulsoft-Reports-Flex-2016.1-Pack-Trial/Components/Stimulsoft_ViewerFx_Trial.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
