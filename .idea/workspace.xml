@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb914fc6-9359-48c3-932c-7301b0bcd949" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/as3_qrcode_encoder.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Stimulsoft_ViewerFx.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invoice/Main.swf" afterPath="$PROJECT_DIR$/out/production/invoice/Main.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invoice/Main.html" afterPath="$PROJECT_DIR$/out/production/invoice/Main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/invoice/src/logo.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invoice/src/Main.mxml" afterPath="$PROJECT_DIR$/invoice/src/Main.mxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invoice/html-template/index.template.html" afterPath="$PROJECT_DIR$/invoice/html-template/index.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invoice/invoice.iml" afterPath="$PROJECT_DIR$/invoice/invoice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invoice/src/invoice_template.mrt" afterPath="$PROJECT_DIR$/invoice/src/invoice_template.mrt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invoice/invoice_template.mrt" afterPath="$PROJECT_DIR$/out/production/invoice/invoice_template.mrt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="politeh-invoice.iws" />
@@ -38,21 +29,21 @@
       <file leaf-file-name="Main.mxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/invoice/src/Main.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4753363">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7085202">
+              <caret line="228" column="24" selection-start-line="228" selection-start-column="24" selection-end-line="228" selection-end-column="24" />
               <folding>
-                <marker date="1459875749000" expanded="true" signature="239:1188" placeholder="..." />
-                <marker date="1459875749000" expanded="true" signature="477:1188" placeholder="..." />
-                <marker date="1459875749000" expanded="true" signature="1640:3653" placeholder="{...}" />
-                <marker date="1459875749000" expanded="true" signature="3428:3643" placeholder="//..." />
-                <marker date="1459875749000" expanded="true" signature="3706:5512" placeholder="{...}" />
-                <marker date="1459875749000" expanded="true" signature="4632:5024" placeholder="//..." />
-                <marker date="1459875749000" expanded="true" signature="5076:5241" placeholder="//..." />
-                <marker date="1459875749000" expanded="true" signature="5243:5500" placeholder="//..." />
-                <marker date="1459875749000" expanded="true" signature="5572:8037" placeholder="{...}" />
-                <marker date="1459875749000" expanded="true" signature="7467:7622" placeholder="//..." />
-                <marker date="1459875749000" expanded="true" signature="7625:7758" placeholder="//..." />
-                <marker date="1459875749000" expanded="true" signature="7761:7946" placeholder="//..." />
+                <marker date="1459962288000" expanded="true" signature="239:1188" placeholder="..." />
+                <marker date="1459962288000" expanded="true" signature="477:1188" placeholder="..." />
+                <marker date="1459962288000" expanded="true" signature="1640:3653" placeholder="{...}" />
+                <marker date="1459962288000" expanded="true" signature="3428:3643" placeholder="//..." />
+                <marker date="1459962288000" expanded="true" signature="3706:5512" placeholder="{...}" />
+                <marker date="1459962288000" expanded="true" signature="4632:5024" placeholder="//..." />
+                <marker date="1459962288000" expanded="true" signature="5076:5241" placeholder="//..." />
+                <marker date="1459962288000" expanded="true" signature="5243:5500" placeholder="//..." />
+                <marker date="1459962288000" expanded="true" signature="5572:8037" placeholder="{...}" />
+                <marker date="1459962288000" expanded="true" signature="7467:7622" placeholder="//..." />
+                <marker date="1459962288000" expanded="true" signature="7625:7758" placeholder="//..." />
+                <marker date="1459962288000" expanded="true" signature="7761:7946" placeholder="//..." />
               </folding>
             </state>
           </provider>
@@ -61,7 +52,7 @@
       <file leaf-file-name="index.template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/invoice/html-template/index.template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-69.375">
+            <state vertical-scroll-proportion="0.0">
               <caret line="113" column="25" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
               <folding />
             </state>
@@ -71,7 +62,7 @@
       <file leaf-file-name="Main.mxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/invoice/libs/as3-qrcode-encoder/demo-app/src/Main.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <marker date="1459562166000" expanded="false" signature="232:303" placeholder="..." />
@@ -156,16 +147,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -200,8 +183,48 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="invoice">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="invoice">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="invoice">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="invoice">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -566,16 +589,17 @@
       <updated>1458785009796</updated>
       <workItem from="1458785013394" duration="5611000" />
       <workItem from="1459372068274" duration="522000" />
-      <workItem from="1459562571712" duration="12680000" />
+      <workItem from="1459562571712" duration="12747000" />
+      <workItem from="1459956474150" duration="927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18813000" />
+    <option name="totallyTimeSpent" value="19807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -592,7 +616,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="MXML Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -634,18 +658,37 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1459875749000" expanded="true" signature="239:1188" placeholder="..." />
-            <marker date="1459875749000" expanded="true" signature="477:1188" placeholder="..." />
-            <marker date="1459875749000" expanded="true" signature="1640:3653" placeholder="{...}" />
-            <marker date="1459875749000" expanded="true" signature="3428:3643" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="3706:5512" placeholder="{...}" />
-            <marker date="1459875749000" expanded="true" signature="4632:5024" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="5076:5241" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="5243:5500" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="5572:8037" placeholder="{...}" />
-            <marker date="1459875749000" expanded="true" signature="7467:7622" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="7625:7758" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="7761:7946" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="239:1188" placeholder="..." />
+            <marker date="1459962288000" expanded="true" signature="477:1188" placeholder="..." />
+            <marker date="1459962288000" expanded="true" signature="1640:3653" placeholder="{...}" />
+            <marker date="1459962288000" expanded="true" signature="3428:3643" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="3706:5512" placeholder="{...}" />
+            <marker date="1459962288000" expanded="true" signature="4632:5024" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="5076:5241" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="5243:5500" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="5572:8037" placeholder="{...}" />
+            <marker date="1459962288000" expanded="true" signature="7467:7622" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="7625:7758" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="7761:7946" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/html-template/index.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="25" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/libs/as3-qrcode-encoder/demo-app/src/Main.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <marker date="1459562166000" expanded="false" signature="232:303" placeholder="..." />
+            <marker date="1459562166000" expanded="true" signature="461:617" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -663,18 +706,47 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1459875749000" expanded="true" signature="239:1188" placeholder="..." />
-            <marker date="1459875749000" expanded="true" signature="477:1188" placeholder="..." />
-            <marker date="1459875749000" expanded="true" signature="1640:3653" placeholder="{...}" />
-            <marker date="1459875749000" expanded="true" signature="3428:3643" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="3706:5512" placeholder="{...}" />
-            <marker date="1459875749000" expanded="true" signature="4632:5024" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="5076:5241" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="5243:5500" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="5572:8037" placeholder="{...}" />
-            <marker date="1459875749000" expanded="true" signature="7467:7622" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="7625:7758" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="7761:7946" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="239:1188" placeholder="..." />
+            <marker date="1459962288000" expanded="true" signature="477:1188" placeholder="..." />
+            <marker date="1459962288000" expanded="true" signature="1640:3653" placeholder="{...}" />
+            <marker date="1459962288000" expanded="true" signature="3428:3643" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="3706:5512" placeholder="{...}" />
+            <marker date="1459962288000" expanded="true" signature="4632:5024" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="5076:5241" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="5243:5500" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="5572:8037" placeholder="{...}" />
+            <marker date="1459962288000" expanded="true" signature="7467:7622" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="7625:7758" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="7761:7946" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/src/Main.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459962288000" expanded="true" signature="239:1188" placeholder="..." />
+            <marker date="1459962288000" expanded="true" signature="477:1188" placeholder="..." />
+            <marker date="1459962288000" expanded="true" signature="1640:3653" placeholder="{...}" />
+            <marker date="1459962288000" expanded="true" signature="3428:3643" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="3706:5512" placeholder="{...}" />
+            <marker date="1459962288000" expanded="true" signature="4632:5024" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="5076:5241" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="5243:5500" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="5572:8037" placeholder="{...}" />
+            <marker date="1459962288000" expanded="true" signature="7467:7622" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="7625:7758" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="7761:7946" placeholder="//..." />
           </folding>
         </state>
       </provider>
@@ -713,13 +785,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/invoice/libs/as3-qrcode-encoder/demo-app/src/Main.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <marker date="1459562166000" expanded="false" signature="232:303" placeholder="..." />
@@ -732,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.83116883">
           <caret line="25687" column="42" selection-start-line="25687" selection-start-column="29" selection-end-line="25687" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="263" column="25" selection-start-line="263" selection-start-column="25" selection-end-line="263" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7037037">
           <caret line="107" column="65" selection-start-line="107" selection-start-column="65" selection-end-line="107" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="1273" column="0" selection-start-line="1273" selection-start-column="0" selection-end-line="1273" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,9 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2592592">
           <caret line="32" column="20" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="e#1005#1037#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,9 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5160494">
           <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding>
-            <element signature="e#1005#1037#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,7 +851,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/invoice/html-template/index.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-69.375">
+        <state vertical-scroll-proportion="0.0">
           <caret line="113" column="25" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
           <folding />
         </state>
@@ -798,21 +859,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/invoice/src/Main.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4753363">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7085202">
+          <caret line="228" column="24" selection-start-line="228" selection-start-column="24" selection-end-line="228" selection-end-column="24" />
           <folding>
-            <marker date="1459875749000" expanded="true" signature="239:1188" placeholder="..." />
-            <marker date="1459875749000" expanded="true" signature="477:1188" placeholder="..." />
-            <marker date="1459875749000" expanded="true" signature="1640:3653" placeholder="{...}" />
-            <marker date="1459875749000" expanded="true" signature="3428:3643" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="3706:5512" placeholder="{...}" />
-            <marker date="1459875749000" expanded="true" signature="4632:5024" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="5076:5241" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="5243:5500" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="5572:8037" placeholder="{...}" />
-            <marker date="1459875749000" expanded="true" signature="7467:7622" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="7625:7758" placeholder="//..." />
-            <marker date="1459875749000" expanded="true" signature="7761:7946" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="239:1188" placeholder="..." />
+            <marker date="1459962288000" expanded="true" signature="477:1188" placeholder="..." />
+            <marker date="1459962288000" expanded="true" signature="1640:3653" placeholder="{...}" />
+            <marker date="1459962288000" expanded="true" signature="3428:3643" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="3706:5512" placeholder="{...}" />
+            <marker date="1459962288000" expanded="true" signature="4632:5024" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="5076:5241" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="5243:5500" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="5572:8037" placeholder="{...}" />
+            <marker date="1459962288000" expanded="true" signature="7467:7622" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="7625:7758" placeholder="//..." />
+            <marker date="1459962288000" expanded="true" signature="7761:7946" placeholder="//..." />
           </folding>
         </state>
       </provider>

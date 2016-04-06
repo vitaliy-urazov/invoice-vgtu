@@ -184,7 +184,7 @@
     <fx:Style source="styles.css"/>
 
     <s:layout>
-        <s:HorizontalLayout horizontalAlign="center" verticalAlign="middle"></s:HorizontalLayout>
+        <s:VerticalLayout horizontalAlign="center" verticalAlign="middle"></s:VerticalLayout>
     </s:layout>
 
 
@@ -221,6 +221,16 @@
             <s:Button click="getQRCode(event);" label="Сформировать платежку"/>
         </s:FormItem>
     </s:Form>
+
+
+    <s:HGroup verticalAlign="middle" width="600" horizontalAlign="left" paddingTop="70">
+
+        <s:Image source="logo.jpg" width="70" height="70"/>
+        <s:Rect width="10"/>
+        <s:Label percentWidth="100" maxDisplayedLines="10"  lineBreak="toFit"
+                 text="Отдел технического и программного обеспечения информационных технологий"/>
+
+    </s:HGroup>
 
 
 </s:Application>
