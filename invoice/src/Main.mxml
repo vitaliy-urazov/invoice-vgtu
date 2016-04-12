@@ -38,6 +38,10 @@
         public static var rusclass:Class;
         public static var rusLang:String = String(new rusclass as ByteArray);
 
+        [Embed(source="/logo.jpg")]
+        public static var logoImg:Class;
+
+
         private function onInit(e:Event):void {
             StiViewerFx.initialize();
 
@@ -225,7 +229,7 @@
 
     <s:HGroup verticalAlign="middle" width="600" horizontalAlign="left" paddingTop="70">
 
-        <s:Image source="logo.jpg" width="70" height="70"/>
+        <s:Image source="{logoImg}" width="70" height="70"/>
         <s:Rect width="10"/>
         <s:Label percentWidth="100" maxDisplayedLines="10"  lineBreak="toFit"
                  text="Отдел технического и программного обеспечения информационных технологий"/>
