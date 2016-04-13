@@ -11,7 +11,7 @@
 
         import mx.graphics.codec.PNGEncoder;
 
-        import org.qrcode.QRCode;
+//        import org.qrcode.QRCode;
 
         import stimulsoft.flex.data.DataColumn;
         import stimulsoft.flex.data.DataRow;

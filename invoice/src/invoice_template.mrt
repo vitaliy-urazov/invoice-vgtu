@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <StiSerializer type="Flex" version="1.02" application="StiReport">
-  <Dictionary type="Dictionary" Ref="1" isKey="true">
-    <Databases isList="true" count="0"/>
-    <DataSources isList="true" count="1">
-      <info type="DataTableSource" Ref="2" isKey="true">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <Databases count="0" isList="true"/>
+    <DataSources count="1" isList="true">
+      <info Ref="2" type="DataTableSource" isKey="true">
         <Alias>info</Alias>
-        <Columns isList="true" count="9">
+        <Columns count="9" isList="true">
           <value>fname,System.String</value>
           <value>fakult,System.String</value>
           <value>group,System.String</value>
@@ -21,24 +21,24 @@
         <NameInSource>info</NameInSource>
       </info>
     </DataSources>
-    <Relations isList="true" count="0"/>
+    <Relations count="0" isList="true"/>
     <Report isRef="0"/>
-    <Variables isList="true" count="1">
+    <Variables count="1" isList="true">
       <value>,qrimg,qrimg,System.Drawing.Image,,False,False</value>
     </Variables>
   </Dictionary>
   <EngineVersion>EngineV2</EngineVersion>
-  <GlobalizationStrings isList="true" count="0"/>
-  <MetaTags isList="true" count="0"/>
-  <Pages isList="true" count="1">
-    <Page1 type="Page" Ref="3" isKey="true">
+  <GlobalizationStrings count="0" isList="true"/>
+  <MetaTags count="0" isList="true"/>
+  <Pages count="1" isList="true">
+    <Page1 Ref="3" type="Page" isKey="true">
       <Border>None;Black;2;Solid;False;4;Black</Border>
       <Brush>Transparent</Brush>
-      <Components isList="true" count="87">
-        <Text1 type="Text" Ref="4" isKey="true">
+      <Components count="87" isList="true">
+        <Text1 Ref="4" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,0.6,4,0.6</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text1</Name>
@@ -47,25 +47,25 @@
           <Text>Извещение</Text>
           <TextBrush>Black</TextBrush>
         </Text1>
-        <Text2 type="Text" Ref="5" isKey="true">
+        <Text2 Ref="5" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <CanGrow>True</CanGrow>
           <ClientRectangle>5.2,0.6,13.2,0.6</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
           <Name>Text2</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <Text>УФК по Воронежской области (Отдел №34 УФК по Воронежской области ФГБОУ ВО "ВГТУ")</Text>
+          <Text>УФК по Воронежской области (Отдел №34 УФК по Воронежской области ФГБОУ ВО "ВГТУ" л/с 20316Х73120)</Text>
           <TextBrush>Black</TextBrush>
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
         </Text2>
-        <Text3 type="Text" Ref="6" isKey="true">
+        <Text3 Ref="6" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>8.8,1.2,6,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,7</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -75,10 +75,10 @@
           <Text>(наименование получателя платежа)</Text>
           <TextBrush>Black</TextBrush>
         </Text3>
-        <Text4 type="Text" Ref="7" isKey="true">
+        <Text4 Ref="7" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,1.6,3.8,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -88,10 +88,10 @@
           <Text>3662020886</Text>
           <TextBrush>Black</TextBrush>
         </Text4>
-        <Text5 type="Text" Ref="8" isKey="true">
+        <Text5 Ref="8" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,2,3.8,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,7</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -101,10 +101,10 @@
           <Text>ИНН налогового органа</Text>
           <TextBrush>Black</TextBrush>
         </Text5>
-        <Text6 type="Text" Ref="9" isKey="true">
+        <Text6 Ref="9" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>9.4,1.6,9,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -114,10 +114,10 @@
           <Text>40501810920072000002</Text>
           <TextBrush>Black</TextBrush>
         </Text6>
-        <Text7 type="Text" Ref="10" isKey="true">
+        <Text7 Ref="10" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>9.4,2,9,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,7</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -127,10 +127,10 @@
           <Text>(номер счета получателя платежа)</Text>
           <TextBrush>Black</TextBrush>
         </Text7>
-        <Text8 type="Text" Ref="11" isKey="true">
+        <Text8 Ref="11" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,2.4,13.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -140,10 +140,10 @@
           <Text>Отделение Воронеж</Text>
           <TextBrush>Black</TextBrush>
         </Text8>
-        <Text9 type="Text" Ref="12" isKey="true">
+        <Text9 Ref="12" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,2.8,13.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,7</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -153,23 +153,23 @@
           <Text>(наименование банка)</Text>
           <TextBrush>Black</TextBrush>
         </Text9>
-        <Text10 type="Text" Ref="13" isKey="true">
+        <Text10 Ref="13" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>6.2,3.2,3.8,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
           <Name>Text10</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <Text>3662020886</Text>
+          <Text>042007001</Text>
           <TextBrush>Black</TextBrush>
         </Text10>
-        <Text11 type="Text" Ref="14" isKey="true">
+        <Text11 Ref="14" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,3.2,1,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -179,23 +179,22 @@
           <Text>БИК:</Text>
           <TextBrush>Black</TextBrush>
         </Text11>
-        <Text12 type="Text" Ref="15" isKey="true">
+        <Text12 Ref="15" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>12.8,3.2,5.6,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
           <Name>Text12</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <Text>3662020886</Text>
           <TextBrush>Black</TextBrush>
         </Text12>
-        <Text13 type="Text" Ref="16" isKey="true">
+        <Text13 Ref="16" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>11.2,3.2,1.6,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -205,10 +204,10 @@
           <Text>Кор/сч.:</Text>
           <TextBrush>Black</TextBrush>
         </Text13>
-        <Text14 type="Text" Ref="17" isKey="true">
+        <Text14 Ref="17" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,3.6,13.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -218,10 +217,10 @@
           <Text>{info.reason}</Text>
           <TextBrush>Black</TextBrush>
         </Text14>
-        <Text15 type="Text" Ref="18" isKey="true">
+        <Text15 Ref="18" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,4,13.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,7</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -231,10 +230,10 @@
           <Text>(наименование платежа</Text>
           <TextBrush>Black</TextBrush>
         </Text15>
-        <Text16 type="Text" Ref="19" isKey="true">
+        <Text16 Ref="19" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,4.4,3.4,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text16</Name>
@@ -243,10 +242,10 @@
           <Text>ФИО плательщика:</Text>
           <TextBrush>Black</TextBrush>
         </Text16>
-        <Text17 type="Text" Ref="20" isKey="true">
+        <Text17 Ref="20" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,4.8,2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text17</Name>
@@ -255,10 +254,10 @@
           <Text>Факультет:</Text>
           <TextBrush>Black</TextBrush>
         </Text17>
-        <Text18 type="Text" Ref="21" isKey="true">
+        <Text18 Ref="21" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,4.4,9.8,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text18</Name>
@@ -267,10 +266,10 @@
           <Text>{info.lname} {info.fname} {info.mname}</Text>
           <TextBrush>Black</TextBrush>
         </Text18>
-        <Text19 type="Text" Ref="22" isKey="true">
+        <Text19 Ref="22" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>7.2,4.8,5.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text19</Name>
@@ -279,10 +278,10 @@
           <Text>{info.fakult}</Text>
           <TextBrush>Black</TextBrush>
         </Text19>
-        <Text20 type="Text" Ref="23" isKey="true">
+        <Text20 Ref="23" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>12.4,4.8,2.6,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text20</Name>
@@ -291,10 +290,10 @@
           <Text>Номер группы:</Text>
           <TextBrush>Black</TextBrush>
         </Text20>
-        <Text21 type="Text" Ref="24" isKey="true">
+        <Text21 Ref="24" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>15,4.8,3.4,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text21</Name>
@@ -303,10 +302,10 @@
           <Text>{info.group}</Text>
           <TextBrush>Black</TextBrush>
         </Text21>
-        <Text22 type="Text" Ref="25" isKey="true">
+        <Text22 Ref="25" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,5.2,2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -316,10 +315,10 @@
           <Text>ОКАТО:</Text>
           <TextBrush>Black</TextBrush>
         </Text22>
-        <Text23 type="Text" Ref="26" isKey="true">
+        <Text23 Ref="26" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>7.2,5.2,3.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text23</Name>
@@ -328,10 +327,10 @@
           <Text>20701000</Text>
           <TextBrush>Black</TextBrush>
         </Text23>
-        <Text24 type="Text" Ref="27" isKey="true">
+        <Text24 Ref="27" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>10.4,5.2,2.6,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -341,10 +340,10 @@
           <Text>КБК:</Text>
           <TextBrush>Black</TextBrush>
         </Text24>
-        <Text25 type="Text" Ref="28" isKey="true">
+        <Text25 Ref="28" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>13,5.2,5.4,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text25</Name>
@@ -353,10 +352,10 @@
           <Text>81530201020020000130</Text>
           <TextBrush>Black</TextBrush>
         </Text25>
-        <Text26 type="Text" Ref="29" isKey="true">
+        <Text26 Ref="29" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,5.8,2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text26</Name>
@@ -365,10 +364,10 @@
           <Text>Сумма:</Text>
           <TextBrush>Black</TextBrush>
         </Text26>
-        <Text27 type="Text" Ref="30" isKey="true">
+        <Text27 Ref="30" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>7.2,5.8,3.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text27</Name>
@@ -377,10 +376,10 @@
           <Text>{info.summa}</Text>
           <TextBrush>Black</TextBrush>
         </Text27>
-        <Text28 type="Text" Ref="31" isKey="true">
+        <Text28 Ref="31" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>11.8,5.8,1.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text28</Name>
@@ -389,10 +388,10 @@
           <Text>Дата:</Text>
           <TextBrush>Black</TextBrush>
         </Text28>
-        <Text29 type="Text" Ref="32" isKey="true">
+        <Text29 Ref="32" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>13,5.8,5.4,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text29</Name>
@@ -401,10 +400,10 @@
           <Text>____ ______________ 20___ г</Text>
           <TextBrush>Black</TextBrush>
         </Text29>
-        <Text30 type="Text" Ref="33" isKey="true">
+        <Text30 Ref="33" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,6.4,13.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text30</Name>
@@ -413,10 +412,10 @@
           <Text>Плательщик (подпись): _______________________________________</Text>
           <TextBrush>Black</TextBrush>
         </Text30>
-        <Text31 type="Text" Ref="34" isKey="true">
+        <Text31 Ref="34" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,7.4,4,0.6</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text31</Name>
@@ -425,25 +424,25 @@
           <Text>Квитанция</Text>
           <TextBrush>Black</TextBrush>
         </Text31>
-        <Text32 type="Text" Ref="35" isKey="true">
+        <Text32 Ref="35" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <CanGrow>True</CanGrow>
           <ClientRectangle>5.2,7.4,13.2,0.6</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
           <Name>Text32</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <Text>УФК по Воронежской области (Отдел №34 УФК по Воронежской области ФГБОУ ВО "ВГТУ")</Text>
+          <Text>УФК по Воронежской области (Отдел №34 УФК по Воронежской области ФГБОУ ВО "ВГТУ" л/с 20316Х73120)</Text>
           <TextBrush>Black</TextBrush>
           <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
         </Text32>
-        <Text33 type="Text" Ref="36" isKey="true">
+        <Text33 Ref="36" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>8.8,8,6,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,7</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -453,10 +452,10 @@
           <Text>(наименование получателя платежа)</Text>
           <TextBrush>Black</TextBrush>
         </Text33>
-        <Text34 type="Text" Ref="37" isKey="true">
+        <Text34 Ref="37" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,8.4,3.8,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -466,10 +465,10 @@
           <Text>3662020886</Text>
           <TextBrush>Black</TextBrush>
         </Text34>
-        <Text35 type="Text" Ref="38" isKey="true">
+        <Text35 Ref="38" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,8.8,3.8,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,7</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -479,10 +478,10 @@
           <Text>ИНН налогового органа</Text>
           <TextBrush>Black</TextBrush>
         </Text35>
-        <Text36 type="Text" Ref="39" isKey="true">
+        <Text36 Ref="39" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>9.4,8.4,9,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -492,10 +491,10 @@
           <Text>40501810920072000002</Text>
           <TextBrush>Black</TextBrush>
         </Text36>
-        <Text37 type="Text" Ref="40" isKey="true">
+        <Text37 Ref="40" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>9.4,8.8,9,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,7</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -505,10 +504,10 @@
           <Text>(номер счета получателя платежа)</Text>
           <TextBrush>Black</TextBrush>
         </Text37>
-        <Text38 type="Text" Ref="41" isKey="true">
+        <Text38 Ref="41" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,9.2,13.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -518,10 +517,10 @@
           <Text>Отделение Воронеж</Text>
           <TextBrush>Black</TextBrush>
         </Text38>
-        <Text39 type="Text" Ref="42" isKey="true">
+        <Text39 Ref="42" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,9.6,13.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,7</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -531,23 +530,23 @@
           <Text>(наименование банка)</Text>
           <TextBrush>Black</TextBrush>
         </Text39>
-        <Text40 type="Text" Ref="43" isKey="true">
+        <Text40 Ref="43" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>6.2,10,3.8,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
           <Name>Text40</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <Text>3662020886</Text>
+          <Text>042007001</Text>
           <TextBrush>Black</TextBrush>
         </Text40>
-        <Text41 type="Text" Ref="44" isKey="true">
+        <Text41 Ref="44" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,10,1,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -557,23 +556,22 @@
           <Text>БИК:</Text>
           <TextBrush>Black</TextBrush>
         </Text41>
-        <Text42 type="Text" Ref="45" isKey="true">
+        <Text42 Ref="45" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>12.8,10,5.6,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
           <Name>Text42</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <Text>3662020886</Text>
           <TextBrush>Black</TextBrush>
         </Text42>
-        <Text43 type="Text" Ref="46" isKey="true">
+        <Text43 Ref="46" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>11.2,10,1.6,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -583,10 +581,10 @@
           <Text>Кор/сч.:</Text>
           <TextBrush>Black</TextBrush>
         </Text43>
-        <Text45 type="Text" Ref="47" isKey="true">
+        <Text45 Ref="47" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,10.8,13.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,7</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -596,10 +594,10 @@
           <Text>(наименование платежа</Text>
           <TextBrush>Black</TextBrush>
         </Text45>
-        <Text46 type="Text" Ref="48" isKey="true">
+        <Text46 Ref="48" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,11.2,3.4,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text46</Name>
@@ -608,10 +606,10 @@
           <Text>ФИО плательщика:</Text>
           <TextBrush>Black</TextBrush>
         </Text46>
-        <Text47 type="Text" Ref="49" isKey="true">
+        <Text47 Ref="49" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,11.6,2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text47</Name>
@@ -620,10 +618,10 @@
           <Text>Факультет:</Text>
           <TextBrush>Black</TextBrush>
         </Text47>
-        <Text50 type="Text" Ref="50" isKey="true">
+        <Text50 Ref="50" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>12.4,11.6,2.6,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text50</Name>
@@ -632,10 +630,10 @@
           <Text>Номер группы:</Text>
           <TextBrush>Black</TextBrush>
         </Text50>
-        <Text52 type="Text" Ref="51" isKey="true">
+        <Text52 Ref="51" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,12,2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -645,10 +643,10 @@
           <Text>ОКАТО:</Text>
           <TextBrush>Black</TextBrush>
         </Text52>
-        <Text53 type="Text" Ref="52" isKey="true">
+        <Text53 Ref="52" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>7.2,12,3.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text53</Name>
@@ -657,10 +655,10 @@
           <Text>20701000</Text>
           <TextBrush>Black</TextBrush>
         </Text53>
-        <Text54 type="Text" Ref="53" isKey="true">
+        <Text54 Ref="53" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>10.4,12,2.6,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -670,10 +668,10 @@
           <Text>КБК:</Text>
           <TextBrush>Black</TextBrush>
         </Text54>
-        <Text55 type="Text" Ref="54" isKey="true">
+        <Text55 Ref="54" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>13,12,5.4,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text55</Name>
@@ -682,10 +680,10 @@
           <Text>81530201020020000130</Text>
           <TextBrush>Black</TextBrush>
         </Text55>
-        <Text56 type="Text" Ref="55" isKey="true">
+        <Text56 Ref="55" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,12.6,2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text56</Name>
@@ -694,10 +692,10 @@
           <Text>Сумма:</Text>
           <TextBrush>Black</TextBrush>
         </Text56>
-        <Text58 type="Text" Ref="56" isKey="true">
+        <Text58 Ref="56" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>11.8,12.6,1.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text58</Name>
@@ -706,10 +704,10 @@
           <Text>Дата:</Text>
           <TextBrush>Black</TextBrush>
         </Text58>
-        <Text59 type="Text" Ref="57" isKey="true">
+        <Text59 Ref="57" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>13,12.6,5.4,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text59</Name>
@@ -718,10 +716,10 @@
           <Text>____ ______________ 20___ г</Text>
           <TextBrush>Black</TextBrush>
         </Text59>
-        <Text60 type="Text" Ref="58" isKey="true">
+        <Text60 Ref="58" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,13.2,13.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text60</Name>
@@ -730,10 +728,10 @@
           <Text>Плательщик (подпись): _______________________________________</Text>
           <TextBrush>Black</TextBrush>
         </Text60>
-        <Text57 type="Text" Ref="59" isKey="true">
+        <Text57 Ref="59" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>7.2,12.6,3.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text57</Name>
@@ -742,10 +740,10 @@
           <Text>{info.summa}</Text>
           <TextBrush>Black</TextBrush>
         </Text57>
-        <Text48 type="Text" Ref="60" isKey="true">
+        <Text48 Ref="60" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,11.2,9.8,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text48</Name>
@@ -754,10 +752,10 @@
           <Text>{info.lname} {info.fname} {info.mname}</Text>
           <TextBrush>Black</TextBrush>
         </Text48>
-        <Text49 type="Text" Ref="61" isKey="true">
+        <Text49 Ref="61" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>7.2,11.6,5.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text49</Name>
@@ -766,10 +764,10 @@
           <Text>{info.fakult}</Text>
           <TextBrush>Black</TextBrush>
         </Text49>
-        <Text51 type="Text" Ref="62" isKey="true">
+        <Text51 Ref="62" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>15,11.6,3.4,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text51</Name>
@@ -778,10 +776,10 @@
           <Text>{info.group}</Text>
           <TextBrush>Black</TextBrush>
         </Text51>
-        <Text44 type="Text" Ref="63" isKey="true">
+        <Text44 Ref="63" type="Text" isKey="true">
           <Brush>Transparent</Brush>
           <ClientRectangle>5.2,10.4,13.2,0.4</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,10</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -791,317 +789,317 @@
           <Text>{info.reason}</Text>
           <TextBrush>Black</TextBrush>
         </Text44>
-        <BarCode1 type="Stimulsoft.Report.BarCodes.StiBarCode" Ref="64" isKey="true">
+        <BarCode1 Ref="64" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
           <AutoScale>True</AutoScale>
           <BackColor>White</BackColor>
-          <BarCodeType type="Stimulsoft.Report.BarCodes.StiQRCodeBarCodeType" Ref="65" isKey="true"/>
+          <BarCodeType Ref="65" type="Stimulsoft.Report.BarCodes.StiQRCodeBarCodeType" isKey="true"/>
           <ClientRectangle>0.6,1.6,4,3.8</ClientRectangle>
           <Code>{info.qrcode}</Code>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Font>Arial,8,Bold,Pixel</Font>
           <ForeColor>Black</ForeColor>
           <Name>BarCode1</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
         </BarCode1>
-        <RectanglePrimitive1 type="RectanglePrimitive" Ref="66" isKey="true">
+        <RectanglePrimitive1 Ref="66" type="RectanglePrimitive" isKey="true">
           <ClientRectangle>0.4,0.4,4.6,6.8</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Guid>8b1ddc1ff4cb279a2d4aa3f81ccd992c</Guid>
           <Name>RectanglePrimitive1</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
         </RectanglePrimitive1>
-        <StartPointPrimitive1 type="Stimulsoft.Report.Components.StiStartPointPrimitive" Ref="67" isKey="true">
+        <StartPointPrimitive1 Ref="67" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
           <ClientRectangle>0.4,0.4,0,0</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Name>StartPointPrimitive1</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
           <ReferenceToGuid>8b1ddc1ff4cb279a2d4aa3f81ccd992c</ReferenceToGuid>
         </StartPointPrimitive1>
-        <EndPointPrimitive1 type="Stimulsoft.Report.Components.StiEndPointPrimitive" Ref="68" isKey="true">
+        <EndPointPrimitive1 Ref="68" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
           <ClientRectangle>5,7.2,0,0</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Name>EndPointPrimitive1</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
           <ReferenceToGuid>8b1ddc1ff4cb279a2d4aa3f81ccd992c</ReferenceToGuid>
         </EndPointPrimitive1>
-        <RectanglePrimitive2 type="RectanglePrimitive" Ref="69" isKey="true">
+        <RectanglePrimitive2 Ref="69" type="RectanglePrimitive" isKey="true">
           <ClientRectangle>5,0.4,13.6,6.8</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Guid>c71a16bca68b527e3626a3f98fb57028</Guid>
           <Name>RectanglePrimitive2</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
         </RectanglePrimitive2>
-        <StartPointPrimitive2 type="Stimulsoft.Report.Components.StiStartPointPrimitive" Ref="70" isKey="true">
+        <StartPointPrimitive2 Ref="70" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
           <ClientRectangle>5,0.4,0,0</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Name>StartPointPrimitive2</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
           <ReferenceToGuid>c71a16bca68b527e3626a3f98fb57028</ReferenceToGuid>
         </StartPointPrimitive2>
-        <EndPointPrimitive2 type="Stimulsoft.Report.Components.StiEndPointPrimitive" Ref="71" isKey="true">
+        <EndPointPrimitive2 Ref="71" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
           <ClientRectangle>18.6,7.2,0,0</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Name>EndPointPrimitive2</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
           <ReferenceToGuid>c71a16bca68b527e3626a3f98fb57028</ReferenceToGuid>
         </EndPointPrimitive2>
-        <HorizontalLinePrimitive1 type="HorizontalLinePrimitive" Ref="72" isKey="true">
+        <HorizontalLinePrimitive1 Ref="72" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>5.2,1.2,13.2,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="73" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="73" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive1</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="74" isKey="true">
+          <StartCap Ref="74" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive1>
-        <HorizontalLinePrimitive2 type="HorizontalLinePrimitive" Ref="75" isKey="true">
+        <HorizontalLinePrimitive2 Ref="75" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>5.2,2,3.8,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="76" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="76" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive2</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="77" isKey="true">
+          <StartCap Ref="77" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive2>
-        <HorizontalLinePrimitive3 type="HorizontalLinePrimitive" Ref="78" isKey="true">
+        <HorizontalLinePrimitive3 Ref="78" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>9.4,2,9,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="79" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="79" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive3</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="80" isKey="true">
+          <StartCap Ref="80" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive3>
-        <HorizontalLinePrimitive4 type="HorizontalLinePrimitive" Ref="81" isKey="true">
+        <HorizontalLinePrimitive4 Ref="81" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>5.2,2.8,13.2,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="82" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="82" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive4</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="83" isKey="true">
+          <StartCap Ref="83" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive4>
-        <HorizontalLinePrimitive5 type="HorizontalLinePrimitive" Ref="84" isKey="true">
+        <HorizontalLinePrimitive5 Ref="84" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>6.2,3.6,3.8,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="85" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="85" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive5</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="86" isKey="true">
+          <StartCap Ref="86" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive5>
-        <HorizontalLinePrimitive6 type="HorizontalLinePrimitive" Ref="87" isKey="true">
+        <HorizontalLinePrimitive6 Ref="87" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>12.8,3.6,5.6,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="88" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="88" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive6</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="89" isKey="true">
+          <StartCap Ref="89" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive6>
-        <HorizontalLinePrimitive7 type="HorizontalLinePrimitive" Ref="90" isKey="true">
+        <HorizontalLinePrimitive7 Ref="90" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>5.2,4,13.2,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="91" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="91" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive7</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="92" isKey="true">
+          <StartCap Ref="92" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive7>
-        <RectanglePrimitive3 type="RectanglePrimitive" Ref="93" isKey="true">
+        <RectanglePrimitive3 Ref="93" type="RectanglePrimitive" isKey="true">
           <ClientRectangle>0.4,7.2,4.6,6.8</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Guid>4a736488440575f91709a40d37356f74</Guid>
           <Name>RectanglePrimitive3</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
         </RectanglePrimitive3>
-        <RectanglePrimitive4 type="RectanglePrimitive" Ref="94" isKey="true">
+        <RectanglePrimitive4 Ref="94" type="RectanglePrimitive" isKey="true">
           <ClientRectangle>5,7.2,13.6,6.8</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Guid>86d02547946f150504e0a40d37367d67</Guid>
           <Name>RectanglePrimitive4</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
         </RectanglePrimitive4>
-        <HorizontalLinePrimitive8 type="HorizontalLinePrimitive" Ref="95" isKey="true">
+        <HorizontalLinePrimitive8 Ref="95" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>5.2,8,13.2,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="96" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="96" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive8</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="97" isKey="true">
+          <StartCap Ref="97" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive8>
-        <HorizontalLinePrimitive9 type="HorizontalLinePrimitive" Ref="98" isKey="true">
+        <HorizontalLinePrimitive9 Ref="98" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>5.2,8.8,3.8,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="99" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="99" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive9</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="100" isKey="true">
+          <StartCap Ref="100" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive9>
-        <HorizontalLinePrimitive10 type="HorizontalLinePrimitive" Ref="101" isKey="true">
+        <HorizontalLinePrimitive10 Ref="101" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>9.4,8.8,9,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="102" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="102" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive10</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="103" isKey="true">
+          <StartCap Ref="103" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive10>
-        <HorizontalLinePrimitive11 type="HorizontalLinePrimitive" Ref="104" isKey="true">
+        <HorizontalLinePrimitive11 Ref="104" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>5.2,9.6,13.2,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="105" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="105" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive11</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="106" isKey="true">
+          <StartCap Ref="106" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive11>
-        <HorizontalLinePrimitive12 type="HorizontalLinePrimitive" Ref="107" isKey="true">
+        <HorizontalLinePrimitive12 Ref="107" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>6.2,10.4,3.8,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="108" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="108" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive12</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="109" isKey="true">
+          <StartCap Ref="109" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive12>
-        <HorizontalLinePrimitive13 type="HorizontalLinePrimitive" Ref="110" isKey="true">
+        <HorizontalLinePrimitive13 Ref="110" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>12.8,10.4,5.6,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="111" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="111" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive13</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="112" isKey="true">
+          <StartCap Ref="112" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive13>
-        <HorizontalLinePrimitive14 type="HorizontalLinePrimitive" Ref="113" isKey="true">
+        <HorizontalLinePrimitive14 Ref="113" type="HorizontalLinePrimitive" isKey="true">
           <ClientRectangle>5.2,10.8,13.2,0.0254</ClientRectangle>
           <Color>Black</Color>
-          <Conditions isList="true" count="0"/>
-          <EndCap type="Cap" Ref="114" isKey="true">
+          <Conditions count="0" isList="true"/>
+          <EndCap Ref="114" type="Cap" isKey="true">
             <Color>Black</Color>
           </EndCap>
           <Name>HorizontalLinePrimitive14</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
-          <StartCap type="Cap" Ref="115" isKey="true">
+          <StartCap Ref="115" type="Cap" isKey="true">
             <Color>Black</Color>
           </StartCap>
         </HorizontalLinePrimitive14>
-        <StartPointPrimitive3 type="Stimulsoft.Report.Components.StiStartPointPrimitive" Ref="116" isKey="true">
+        <StartPointPrimitive3 Ref="116" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
           <ClientRectangle>0.4,7.2,0,0</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Name>StartPointPrimitive3</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
           <ReferenceToGuid>4a736488440575f91709a40d37356f74</ReferenceToGuid>
         </StartPointPrimitive3>
-        <EndPointPrimitive3 type="Stimulsoft.Report.Components.StiEndPointPrimitive" Ref="117" isKey="true">
+        <EndPointPrimitive3 Ref="117" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
           <ClientRectangle>5,14,0,0</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Name>EndPointPrimitive3</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
           <ReferenceToGuid>4a736488440575f91709a40d37356f74</ReferenceToGuid>
         </EndPointPrimitive3>
-        <StartPointPrimitive4 type="Stimulsoft.Report.Components.StiStartPointPrimitive" Ref="118" isKey="true">
+        <StartPointPrimitive4 Ref="118" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
           <ClientRectangle>5,7.2,0,0</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Name>StartPointPrimitive4</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
           <ReferenceToGuid>86d02547946f150504e0a40d37367d67</ReferenceToGuid>
         </StartPointPrimitive4>
-        <EndPointPrimitive4 type="Stimulsoft.Report.Components.StiEndPointPrimitive" Ref="119" isKey="true">
+        <EndPointPrimitive4 Ref="119" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
           <ClientRectangle>18.6,14,0,0</ClientRectangle>
-          <Conditions isList="true" count="0"/>
+          <Conditions count="0" isList="true"/>
           <Name>EndPointPrimitive4</Name>
           <Page isRef="3"/>
           <Parent isRef="3"/>
           <ReferenceToGuid>86d02547946f150504e0a40d37367d67</ReferenceToGuid>
         </EndPointPrimitive4>
       </Components>
-      <Conditions isList="true" count="0"/>
+      <Conditions count="0" isList="true"/>
       <Guid>c871f90733abe63333f5a3f50c5b9438</Guid>
       <Margins>1,1,1,1</Margins>
       <Name>Page1</Name>
@@ -1109,21 +1107,21 @@
       <PageWidth>21</PageWidth>
       <PaperSize>A4</PaperSize>
       <Report isRef="0"/>
-      <Watermark type="Stimulsoft.Report.Components.StiWatermark" Ref="120" isKey="true">
+      <Watermark Ref="120" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
         <Font>Arial,100</Font>
         <TextBrush>[50:0:0:0]</TextBrush>
       </Watermark>
     </Page1>
   </Pages>
-  <PrinterSettings type="Stimulsoft.Report.Print.StiPrinterSettings" Ref="121" isKey="true"/>
+  <PrinterSettings Ref="121" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true"/>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>04/05/2016 07:56:51 PM</ReportChanged>
+  <ReportChanged>04/13/2016 05:27:07 PM</ReportChanged>
   <ReportCreated>03/23/2016 05:50:59 PM</ReportCreated>
   <ReportFile>/Users/vitaliyurazov/Downloads/invoice-vgtu/invoice/src/invoice_template.mrt</ReportFile>
-  <ReportGuid>9ce04c34093e80b107c8e75af6f4541b</ReportGuid>
+  <ReportGuid>2f4ac1d1923bd3d029551004c0e81678</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2011.2.1100</ReportVersion>
   <ScriptLanguage>CSharp</ScriptLanguage>
-  <Styles isList="true" count="0"/>
+  <Styles count="0" isList="true"/>
 </StiSerializer>

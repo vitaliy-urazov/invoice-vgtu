@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="invoice-vgtu">
+    <configurations>
+      <configuration name="invoice-vgtu" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/out/production/invoice-vgtu" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
+        <dependencies target-player="20.0">
+          <entries>
+            <entry library-id="b85b76e1-59eb-403b-95be-249f3dd0080e">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flex_sdk_4.15" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/invoice/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="flex_sdk_4.15" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="b85b76e1-59eb-403b-95be-249f3dd0080e" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Stimulsoft-Reports-Flex-2016.1-Pack-Trial/Components/Stimulsoft_ViewerFx_Trial.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

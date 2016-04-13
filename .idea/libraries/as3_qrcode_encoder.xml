@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="as3-qrcode-encoder" type="flex">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/invoice/libs/as3-qrcode-encoder/bin/as3-qrcode-encoder.swc!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
